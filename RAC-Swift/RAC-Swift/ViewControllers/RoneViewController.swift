@@ -14,6 +14,8 @@ class RoneViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = .orange
+        
+        
     }
 
 }

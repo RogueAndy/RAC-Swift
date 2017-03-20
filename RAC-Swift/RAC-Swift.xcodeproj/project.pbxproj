@@ -13,6 +13,7 @@
 		824358811E7F68B500151718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824358801E7F68B500151718 /* Assets.xcassets */; };
 		824358841E7F68B500151718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824358821E7F68B500151718 /* LaunchScreen.storyboard */; };
 		824358921E7FA0C300151718 /* RoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358911E7FA0C300151718 /* RoneViewController.swift */; };
+		824358991E7FA69C00151718 /* RUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358981E7FA69C00151718 /* RUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		824358831E7F68B500151718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824358851E7F68B500151718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		824358911E7FA0C300151718 /* RoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoneViewController.swift; sourceTree = "<group>"; };
+		824358981E7FA69C00151718 /* RUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		8243588D1E7FA0AC00151718 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				824358981E7FA69C00151718 /* RUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				824358921E7FA0C300151718 /* RoneViewController.swift in Sources */,
 				8243587C1E7F68B500151718 /* ViewController.swift in Sources */,
 				8243587A1E7F68B500151718 /* AppDelegate.swift in Sources */,
+				824358991E7FA69C00151718 /* RUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZBB923YFHM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "RAC-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -340,6 +348,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZBB923YFHM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "RAC-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -368,6 +380,7 @@
 				8243588A1E7F68B500151718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
