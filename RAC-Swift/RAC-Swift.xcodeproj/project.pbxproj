@@ -12,6 +12,7 @@
 		8243587F1E7F68B500151718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8243587D1E7F68B500151718 /* Main.storyboard */; };
 		824358811E7F68B500151718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824358801E7F68B500151718 /* Assets.xcassets */; };
 		824358841E7F68B500151718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824358821E7F68B500151718 /* LaunchScreen.storyboard */; };
+		824358921E7FA0C300151718 /* RoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358911E7FA0C300151718 /* RoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		824358801E7F68B500151718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824358831E7F68B500151718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824358851E7F68B500151718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824358911E7FA0C300151718 /* RoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,11 @@
 		824358781E7F68B500151718 /* RAC-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8243588C1E7FA0AC00151718 /* Controls */,
+				8243588D1E7FA0AC00151718 /* Models */,
+				8243588E1E7FA0AC00151718 /* ViewControllers */,
+				8243588F1E7FA0AC00151718 /* ViewModels */,
+				824358901E7FA0AC00151718 /* Views */,
 				824358791E7F68B500151718 /* AppDelegate.swift */,
 				8243587B1E7F68B500151718 /* ViewController.swift */,
 				8243587D1E7F68B500151718 /* Main.storyboard */,
@@ -62,6 +69,42 @@
 				824358851E7F68B500151718 /* Info.plist */,
 			);
 			path = "RAC-Swift";
+			sourceTree = "<group>";
+		};
+		8243588C1E7FA0AC00151718 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		8243588D1E7FA0AC00151718 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8243588E1E7FA0AC00151718 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				824358911E7FA0C300151718 /* RoneViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8243588F1E7FA0AC00151718 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		824358901E7FA0AC00151718 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +184,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			outputPaths = (
 			);
@@ -155,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824358921E7FA0C300151718 /* RoneViewController.swift in Sources */,
 				8243587C1E7F68B500151718 /* ViewController.swift in Sources */,
 				8243587A1E7F68B500151718 /* AppDelegate.swift in Sources */,
 			);
