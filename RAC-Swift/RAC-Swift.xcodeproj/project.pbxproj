@@ -13,7 +13,11 @@
 		824358811E7F68B500151718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824358801E7F68B500151718 /* Assets.xcassets */; };
 		824358841E7F68B500151718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824358821E7F68B500151718 /* LaunchScreen.storyboard */; };
 		824358921E7FA0C300151718 /* RoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358911E7FA0C300151718 /* RoneViewController.swift */; };
-		824358991E7FA69C00151718 /* RUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358981E7FA69C00151718 /* RUser.swift */; };
+		8243589B1E7FAD4200151718 /* RImportBaseFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243589A1E7FAD4200151718 /* RImportBaseFiles.swift */; };
+		8243589D1E7FAFC400151718 /* RAlamofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243589C1E7FAFC400151718 /* RAlamofile.swift */; };
+		824358A11E7FB2A100151718 /* RBaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358A01E7FB2A100151718 /* RBaseMapper.swift */; };
+		824358A31E7FB30400151718 /* RGood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358A21E7FB30400151718 /* RGood.swift */; };
+		824358C01E8109AE00151718 /* RGoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824358BF1E8109AE00151718 /* RGoods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,11 @@
 		824358831E7F68B500151718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824358851E7F68B500151718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		824358911E7FA0C300151718 /* RoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoneViewController.swift; sourceTree = "<group>"; };
-		824358981E7FA69C00151718 /* RUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUser.swift; sourceTree = "<group>"; };
+		8243589A1E7FAD4200151718 /* RImportBaseFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RImportBaseFiles.swift; sourceTree = "<group>"; };
+		8243589C1E7FAFC400151718 /* RAlamofile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAlamofile.swift; sourceTree = "<group>"; };
+		824358A01E7FB2A100151718 /* RBaseMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBaseMapper.swift; sourceTree = "<group>"; };
+		824358A21E7FB30400151718 /* RGood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGood.swift; sourceTree = "<group>"; };
+		824358BF1E8109AE00151718 /* RGoods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGoods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 		8243588C1E7FA0AC00151718 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				8243589A1E7FAD4200151718 /* RImportBaseFiles.swift */,
+				8243589C1E7FAFC400151718 /* RAlamofile.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -83,7 +93,9 @@
 		8243588D1E7FA0AC00151718 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				824358981E7FA69C00151718 /* RUser.swift */,
+				824358A01E7FB2A100151718 /* RBaseMapper.swift */,
+				824358A21E7FB30400151718 /* RGood.swift */,
+				824358BF1E8109AE00151718 /* RGoods.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,10 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8243589B1E7FAD4200151718 /* RImportBaseFiles.swift in Sources */,
+				824358A31E7FB30400151718 /* RGood.swift in Sources */,
+				8243589D1E7FAFC400151718 /* RAlamofile.swift in Sources */,
 				824358921E7FA0C300151718 /* RoneViewController.swift in Sources */,
 				8243587C1E7F68B500151718 /* ViewController.swift in Sources */,
+				824358C01E8109AE00151718 /* RGoods.swift in Sources */,
 				8243587A1E7F68B500151718 /* AppDelegate.swift in Sources */,
-				824358991E7FA69C00151718 /* RUser.swift in Sources */,
+				824358A11E7FB2A100151718 /* RBaseMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
